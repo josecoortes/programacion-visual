@@ -20,5 +20,6 @@ public class T3E2 {
         // Salida por pantalla
         System.out.println(euros + " € son " + pesetas + " pesetas.");
         sc.close();
+        System.out.println("la madre de joaqui esta buena");
     }
 }

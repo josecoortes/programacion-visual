@@ -26,7 +26,7 @@ public class T4E3 {
             else {
                 sueldo = ((horas - HORAS_LECTIVAS) * PRECIO_HORA_EXTRA) + (HORAS_LECTIVAS * PRECIO_HORA) ;
                    // Muestra el resultado por pantalla
-                System.out.println("Tu sueldo es de " + sueldo);
+                System.out.println("El sueldo semanal que le corresponde es de " + sueldo);
             }
         sc.close();
     }

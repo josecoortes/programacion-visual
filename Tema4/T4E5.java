@@ -11,5 +11,6 @@ public class T4E5 {
         double altura = sc.nextFloat();
         double tiempo = Math.sqrt((altura * 2 ) / g);
         System.out.printf("El objeto tardara %.2f " , tiempo , "segundos");
+        sc.close();
     }
 }

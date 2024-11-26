@@ -18,8 +18,8 @@ public class T5E9 {
         int numero = 0;
         final int PRIMERO = 0;
         final int SEGUNDO = 1;
-        int ultimo = 0;
-        int penultimo = 0;
+        int ultimo = SEGUNDO;
+        int penultimo = PRIMERO;
         int aux = 0;
         try {
             System.out.println("\033[1m PRIMEROS NÚMEROS DE LA SERIE DE FIBONACCI\033[0m");
@@ -31,10 +31,11 @@ public class T5E9 {
              * 
              * 
              */
-            if (numero == 0) System.out.println (PRIMERO);
+            if (numero == 0)
+             System.out.println (PRIMERO);
             else if (numero == 1) System.out.println (PRIMERO + " " + SEGUNDO);
             else {
-                System.out.println (PRIMERO + " " + SEGUNDO );
+                System.out.print (PRIMERO + " " + SEGUNDO );
                 while (numero > 2 ){
                     aux = ultimo + penultimo;
                     penultimo = ultimo; 

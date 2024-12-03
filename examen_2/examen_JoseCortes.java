@@ -11,7 +11,6 @@ public class examen_JoseCortes {
         int numAleatorio = 0;
         char colorTabla = ' ';
         char blancoNegro = 'B';
-        char color = 'C';
 
         final String BORDE_HORIZONTAL_BLANCO_NEGRO = " ---";
         final String BORDE_VERTICAL_BLANCO_NEGRO = "|";

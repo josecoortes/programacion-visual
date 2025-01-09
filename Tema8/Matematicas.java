@@ -136,20 +136,20 @@ public class Matematicas {
         return posicionesCoincidentes;
     }
 
-    public static int posicionDigito(int numero, int digito){
+    //public static int posicionDigito(int numero, int digito){
       
-       while (numero / 10 != 0) {
-        int digitoActual = numero % 10;
-        numero = numero / 10;
-        if (digitoActual == digito) {
-            return posicionDigito; 
-        } else {
-            return -1;
-        }
-    }
+      // while (numero / 10 != 0) {
+       // int digitoActual = numero % 10;
+      //  numero = numero / 10;
+      ///  if (digitoActual == digito) {
+        //    return posicionDigito; 
+      //  } else {
+      //      return -1;
+      //  }
+  //  }
         
     
-}
+//}
         
     /**********************************************************************************************************/
     /**
